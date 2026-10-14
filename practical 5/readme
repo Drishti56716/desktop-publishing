@@ -1,1 +1,96 @@
+# Photoshop Practical — Travel Collage (Layers and Creative Composition)
 
+**Name:** Drishti
+**Course:** BCA
+**Software:** Adobe Photoshop
+
+---
+
+## Objective
+
+To understand **layers, transforms and layer styles** by building a creative travel collage from several photographs, with a title, a tagline and decorative elements on a plain background.
+
+## About the Design
+
+A portrait-format travel poster titled **"Travel — More, Worry Less"**. Three photographs are arranged like tilted, overlapping instant prints on a soft sky-blue background.
+
+| Element | Description |
+|---|---|
+| **Background** | Flat, soft sky-blue fill (approx. `#CFE6F5`) that matches the blue skies in the photos |
+| **Photo 1** | Snow-capped mountain range above forested hills, tilted slightly to the left, at the top |
+| **Photo 2** | A curving mountain road with trees and a clear blue sky, tilted slightly to the right, overlapping photo 1 |
+| **Photo 3** | A traveller with a cap and backpack looking at the view, in portrait orientation at the bottom left, overlapping photo 1 |
+| **Frames** | Each photo has a thin white border, like a printed photograph |
+| **Title** | "Travel" in a large brush-script font, dark navy, with short "spark" lines on each side |
+| **Tagline** | "More, Worry Less" in a lighter handwritten-style font below the title |
+| **Decoration** | A navy aeroplane icon with a dashed flight path and a small loop in the bottom-right corner |
+
+## Design Choices
+
+- **Limited colour palette:** light blue, white and dark navy keep the layout calm and let the photos' blues and greens stand out.
+- **Overlap and tilt:** small rotations and overlapping edges give the collage a casual, scrapbook feel instead of a rigid grid.
+- **Layered depth:** the white borders and soft shadows make the photos look like they rest on top of one another.
+- **Strong title hierarchy:** a large script word, with a smaller supporting tagline and plenty of empty space around it.
+- **Theme-matched icon:** the aeroplane with a dashed path tells the story of travelling without adding clutter.
+
+## Tools and Features Used
+
+- **Layers panel:** each photo, the text and the icon sit on their own named layer.
+- **Move tool (`V`) and Free Transform (`Ctrl/Cmd + T`):** resize, rotate and position each photo.
+- **Crop / Layer Mask:** trim each photo to the frame shape you want.
+- **Layer Styles:** *Stroke* (white, inside) for the photo border and *Drop Shadow* for depth.
+- **Type tool (`T`):** title and tagline in script and handwriting-style fonts.
+- **Custom Shape / Pen tool:** the aeroplane icon and the dashed flight path (stroke set to *Dashed*).
+- **Paint Bucket / Fill:** the background colour.
+
+## Steps to Recreate
+
+1. **Create the document:** `File > New`, portrait, for example 1024 × 1536 px, RGB.
+2. **Fill the background** with soft sky blue (`#CFE6F5`).
+3. **Place the photos:** `File > Place Embedded` for each of the three images. Each one lands on its own layer.
+4. **Rename the layers:** for example `Photo - Mountains`, `Photo - Road` and `Photo - Traveller`.
+5. **Resize and rotate (Free Transform):** `Ctrl/Cmd + T`, scale each photo to fit and rotate it a few degrees (about -3° for the mountains and +3° for the road).
+6. **Arrange the overlap:** drag the layers in the Layers panel so the traveller photo sits over the mountain photo and the road photo overlaps both.
+7. **Crop with masks:** add a layer mask to each photo and paint black to hide any parts that should not show.
+8. **Add the white frames:** double-click each photo layer, add a **Stroke** (white, about 6 to 10 px, *Inside*).
+9. **Add depth:** in the same Layer Style dialog, add a soft **Drop Shadow** with low opacity.
+10. **Add the title:** type `Travel` with the Type Tool in a brush-script font, dark navy, and add the small spark lines with the Line tool.
+11. **Add the tagline:** type `More, Worry Less` below the title in a lighter handwritten font.
+12. **Add the aeroplane:** draw or insert a plane shape in navy. Draw the flight path with the Pen tool and set its stroke to a dashed line.
+13. **Group and tidy:** group related layers (for example *Photos* and *Text*) and check the spacing.
+14. **Save and export:**
+    - `File > Save As` → `.psd` to keep the layers.
+    - `File > Export > Export As` → `.jpg` or `.png` for submission.
+
+## Suggested Layer Structure
+
+```
+Airplane + Flight Path   (Shape / Path)
+Tagline - More, Worry Less (Type)
+Title - Travel            (Type)
+Photo - Traveller         (Smart Object + Mask, Stroke, Drop Shadow)
+Photo - Road              (Smart Object + Mask, Stroke, Drop Shadow)
+Photo - Mountains         (Smart Object + Mask, Stroke, Drop Shadow)
+Background                (Sky-blue fill)
+```
+
+## Learning Outcomes
+
+- Learned to work with **multiple layers** and to rename and organise them.
+- Practised **Free Transform** (scale and rotate) and the **Move tool** for placement.
+- Used **layer masks** to crop and blend images non-destructively.
+- Applied **layer styles** (Stroke and Drop Shadow) to create photo-print frames.
+- Learned how **colour harmony, overlap and white space** make a collage look balanced.
+- Practised **typography** by pairing a bold script title with a simple tagline.
+
+## Files
+
+| File | Description |
+|---|---|
+| `travel_collage.psd` | Layered Photoshop source file |
+| `travel_collage.jpg` | Exported collage image |
+| `README.md` | This document |
+
+---
+
+*Submitted by Drishti, BCA — Photoshop Practical*
