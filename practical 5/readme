@@ -1,1 +1,99 @@
+# Photoshop Practical — "Dream Big" Sunset Text Design
 
+**Name:** Drishti
+**Course:** BCA
+**Software:** Adobe Photoshop
+
+---
+
+## Objective
+
+To create an atmospheric **quote poster** that combines a gradient background, soft light effects, layered shapes, brushes and styled text, practising how many simple layers work together to build a mood.
+
+## About the Design
+
+A landscape image with a dreamy purple-to-orange sunset sky. Soft glowing circles float in the sky, a cluster of sparkles forms an arch above the heading, and two silhouetted hill layers sit at the bottom.
+
+| Element | Description |
+|---|---|
+| **Sky background** | Gradient from deep indigo/purple at the top to magenta, then coral and orange near the horizon |
+| **Sun glow** | A large, soft, pale-yellow glow just above the hills |
+| **Bokeh circles** | Blurred, semi-transparent circles in blue, pink and peach scattered across the sky |
+| **Sparkles** | Small white four-pointed stars arranged in an arch over the title (star brush or stamped shapes) |
+| **Hills** | Two wavy silhouettes: a lighter purple layer behind and a darker navy-purple layer in front |
+| **Title** | "DREAM BIG" in large, widely spaced bold capitals, cream-white, with a soft shadow |
+| **Subtitle** | "chase the sunset, paint your own sky" in a lighter italic serif, warm cream colour |
+| **Texture** | A fine grain/noise over the whole image for a soft, filmic look |
+
+## Design Choices
+
+- **Warm-cool contrast:** cool purples at the top fade into warm oranges at the horizon, which looks like a real dusk sky.
+- **Depth through layers:** the lighter hills sit behind the darker ones, so distance is suggested without any photographs.
+- **Soft focus effects:** bokeh circles and the sun glow add dreaminess while the text stays sharp and readable.
+- **Clear hierarchy:** a large bold title, then a small italic tagline.
+- **Wide letter spacing:** extra tracking on "DREAM BIG" makes it feel open, calm and cinematic.
+- **Sparkle arch:** it frames the title and leads the eye towards it.
+
+## Tools and Features Used
+
+- **Gradient Tool (`G`):** the multi-colour sky (purple → magenta → coral → orange).
+- **Elliptical Marquee / Ellipse Tool:** the bokeh circles and the sun glow.
+- **Gaussian Blur** (`Filter > Blur > Gaussian Blur`): softens the circles and the glow.
+- **Layer opacity and blend modes** (for example *Screen* or *Soft Light*): let the glow and bokeh blend with the sky.
+- **Pen Tool / Custom wavy shapes:** the two hill silhouettes.
+- **Brush Tool with a sparkle/star brush:** the arch of stars (or small star shapes stamped manually).
+- **Type Tool (`T`) and Character panel:** font, size and tracking for the title and tagline.
+- **Layer Styles:** *Drop Shadow* on the title.
+- **Add Noise** (`Filter > Noise > Add Noise`): the fine grain over the image.
+
+## Steps to Recreate
+
+1. **Create the document:** `File > New`, landscape, for example 1200 × 800 px, RGB.
+2. **Build the sky:** use the Gradient Tool with several colour stops: deep indigo at the top, purple and magenta in the middle, coral and orange at the bottom.
+3. **Add the sun glow:** on a new layer, paint or draw a pale-yellow circle near the horizon, then apply a large *Gaussian Blur*.
+4. **Add bokeh circles:** draw circles of different sizes in soft blue, pink and peach on new layers, lower their opacity to about 30 to 50% and add a light blur.
+5. **Draw the back hills:** use the Pen Tool to draw a wavy shape across the bottom and fill it with a medium purple.
+6. **Draw the front hills:** add a second, lower wavy shape in a darker navy-purple.
+7. **Add the title:** type `DREAM BIG` in a bold sans-serif, cream-white, and increase *Tracking* strongly (about 300 to 500). Add a soft **Drop Shadow** in Layer Styles.
+8. **Add the subtitle:** type `chase the sunset, paint your own sky` in an italic serif font, in a warm cream colour, with a little tracking.
+9. **Add the sparkles:** on a new layer, use a star or sparkle brush (or small 4-point star shapes) and paint them in an arch above the title, varying their sizes.
+10. **Add grain:** merge a copy of all layers (`Ctrl/Cmd + Alt + Shift + E`), convert it to a Smart Object and apply `Filter > Noise > Add Noise` at a low value.
+11. **Rename and group layers:** for example `Sky`, `Glow`, `Bokeh`, `Hills`, `Sparkles` and `Text`.
+12. **Save and export:**
+    - `File > Save As` → `.psd` to keep the layers.
+    - `File > Export > Export As` → `.jpg` or `.png` for submission.
+
+## Suggested Layer Structure
+
+```
+Noise / Grain             (Smart Filter on merged copy)
+Subtitle                  (Type)
+Title - DREAM BIG         (Type, Drop Shadow)
+Sparkles                  (Brush layer)
+Hills - Front             (Shape, dark purple)
+Hills - Back              (Shape, medium purple)
+Bokeh Circles             (Group, reduced opacity, blurred)
+Sun Glow                  (Blurred layer)
+Sky Gradient              (Gradient fill)
+```
+
+## Learning Outcomes
+
+- Learned to create smooth **multi-colour gradients** for skies and backgrounds.
+- Practised **blur, opacity and blend modes** to make soft glowing effects.
+- Learned how to draw **vector silhouettes** with the Pen Tool.
+- Practised using **custom brushes** for decoration.
+- Understood **typography basics**: tracking, hierarchy and contrast with the background.
+- Learned to build a polished design from many simple, well-organised layers.
+
+## Files
+
+| File | Description |
+|---|---|
+| `dream_big.psd` | Layered Photoshop source file |
+| `dream_big.jpg` | Exported image |
+| `README.md` | This document |
+
+---
+
+*Submitted by Drishti, BCA — Photoshop Practical*
